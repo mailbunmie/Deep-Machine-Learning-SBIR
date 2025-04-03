@@ -17,9 +17,9 @@ import seaborn as sns
 # unit test on patching an image
 
 # read image and resize to 128
-#image = Image.open('imgs/used/4a.jpg').resize((128, 128))
-#image = Image.open('/content/drive/MyDrive/8a.jpg').resize((128, 128))
-image = Image.open('/content/drive/Othercomputers/My Laptop/All_Apps/imgs/used/8a.jpg').resize((128, 128))
+#image = Image.open('imgs/4a.jpg').resize((128, 128))
+#image = Image.open('/content/drive/MyDrive/21a.jpg').resize((128, 128))
+image = Image.open('/content/drive/Othercomputers/8a.jpg').resize((128, 128))
 
 
 # convert to numpy array
