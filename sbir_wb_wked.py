@@ -26,7 +26,7 @@ drive.mount('/content/drive', force_remount=True)
 
 ## Start ngrok tunnel for Flask app
 #from pyngrok import ngrok
-#ngrok.set_auth_token("2pRAjChVG5rt9JgscS9fVsbZ63R_36haH7SnRAFnDrBgBrt1S")  # Replace with your ngrok auth token
+#ngrok.set_auth_token("xxxxxxxx")  # Replace with your ngrok auth token
 #public_url = ngrok.connect(5000)
 #print(f"Public URL: {public_url}")
 
@@ -51,7 +51,7 @@ drive.mount('/content/drive', force_remount=True)
 
 # Start ngrok tunnel for Flask app
 from pyngrok import ngrok
-ngrok.set_auth_token("2pRAjChVG5rt9JgscS9fVsbZ63R_36haH7SnRAFnDrBgBrt1S")  # Replace with your ngrok auth token
+ngrok.set_auth_token("xxxxxxxx")  # Replace with your ngrok auth token
 public_url = ngrok.connect(5000)
 print(f"Public URL: {public_url}")
 
