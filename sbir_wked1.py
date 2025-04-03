@@ -14,7 +14,7 @@ from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_sc
 drive.mount('/content/drive', force_remount=True)
 
 # Load images from a folder
-image_list = Load_Data().from_folder(['/content/drive/Othercomputers/My Laptop/All_Apps/imgs/used/objects/testBSame'])
+image_list = Load_Data().from_folder(['/content/drive/Othercomputers/'])
 
 # Helper function to calculate dynamic padding
 def calculate_padding(size):
@@ -127,7 +127,7 @@ def calculate_metrics(true_labels, predicted_labels):
     return precision, recall, f1, accuracy
 
 # Example usage
-image_path = '/content/drive/Othercomputers/My Laptop/All_Apps/imgs/used/1a.jpg'
+image_path = '/content/drive/Othercomputers/1a.jpg'
 similar_images = get_similar_images(image_path)
 
 # Simulate true labels and predicted labels (for demonstration purposes)
