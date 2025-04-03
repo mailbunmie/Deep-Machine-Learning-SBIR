@@ -64,7 +64,7 @@ def load_images_from_folder(folder_path):
     return image_paths
 
 # Load images from folder
-image_folder_path = '/content/drive/Othercomputers/My Laptop/All_Apps/imgs/used/objects/testBSame'
+image_folder_path = '/content/drive/Othercomputers/'
 image_list = load_images_from_folder(image_folder_path)
 
 # Helper function to calculate dynamic padding
